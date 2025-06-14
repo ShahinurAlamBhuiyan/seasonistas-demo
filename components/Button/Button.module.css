@@ -1,0 +1,53 @@
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply block transition-colors;
+    @apply px-4 py-2.5;
+    @apply min-w-28;
+    @apply font-semibold;
+
+    @apply flex items-center justify-center gap-x-3;
+
+    @apply disabled:opacity-50;
+  }
+
+  .btn_outline {
+    @apply border-2 rounded-xl;
+    @apply border-teal text-teal;
+    @apply hover:enabled:bg-teal/10 active:bg-teal/15;
+  }
+
+  .btn_outline.btn_theme_white {
+    @apply border-white text-white;
+    @apply hover:enabled:bg-white/10 active:bg-white/15;
+  }
+
+  .btn_outline.btn_theme_red {
+    @apply border-red-400 text-red-400;
+    @apply hover:enabled:bg-red-400/10 active:bg-red-400/15;
+  }
+
+  .btn_filled {
+    @apply border-2 rounded-xl;
+    @apply border-teal bg-teal text-white;
+    @apply hover:enabled:bg-teal-dark hover:enabled:border-teal-dark;
+    @apply active:bg-teal active:border-teal;
+  }
+
+  .btn_filled.btn_theme_white {
+    @apply border-white bg-white text-teal;
+    @apply hover:enabled:bg-[#ffffffd8] hover:enabled:border-[#ffffffd8];
+    @apply active:bg-white active:border-white;
+  }
+
+  .btn_light {
+    @apply border-2 border-[#E6E8E7] rounded-xl;
+    @apply hover:enabled:bg-teal/10 active:bg-teal/15;
+  }
+
+  .btn_text {
+    @apply rounded-xl border-2 border-transparent;
+    @apply hover:enabled:bg-teal/10 active:bg-teal/15;
+  }
+}

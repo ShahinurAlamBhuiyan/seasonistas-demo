@@ -1,0 +1,74 @@
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 14.5px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Urbanist";
+
+  font-weight: 500;
+}
+
+#root {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+}
+
+@layer utilities {
+  .tc {
+    @apply transition-colors;
+  }
+
+  .ta {
+    @apply transition-all;
+  }
+
+  .feedback {
+    @apply cursor-pointer transition-colors hover:bg-black/10;
+  }
+}
+
+@layer components {
+  .d {
+    @apply bg-red-400;
+  }
+
+  .d2 {
+    @apply bg-green-400;
+  }
+
+  .d3 {
+    @apply bg-purple-400;
+  }
+
+  .d4 {
+    @apply bg-yellow-600;
+  }
+
+  .app-container {
+    --app-max-width: 1330px;
+    max-width: var(--app-max-width);
+    @apply mx-auto px-7;
+  }
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+}
+
+/* Employer dashboard input */
+.Employer-dashboard-input {
+  @apply w-full border border-[#DDE1E0] px-4 py-2 rounded-full text-[#767676] text-[14px] font-[400] leading-[24px] focus:outline-none focus:ring;
+}
+
+/* Add this to your global CSS */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

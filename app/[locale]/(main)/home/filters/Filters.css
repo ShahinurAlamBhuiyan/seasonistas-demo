@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+  .SliderRoot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    touch-action: none;
+    width: 100%;
+    height: 20px;
+  }
+
+  .SliderTrack {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 9999px;
+    height: 3px;
+
+    @apply bg-white;
+  }
+
+  .SliderRange {
+    position: absolute;
+    border-radius: 9999px;
+    height: 100%;
+
+    @apply bg-teal;
+  }
+
+  .SliderThumb {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    @apply bg-white rounded-full border-[3px] border-teal;
+    @apply outline-none;
+  }
+}

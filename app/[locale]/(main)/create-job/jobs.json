@@ -1,0 +1,748 @@
+[
+  {
+    "category": "Hotel Services",
+    "specialisms": [
+      {
+        "title": "Receptionist",
+        "info": "Greets guests, manages reservations, check-in and check-out processes, and provides information about the hotel"
+      },
+      {
+        "title": "Front office manager",
+        "info": "Oversees the reception staff and manages the daily operations of the department"
+      },
+      {
+        "title": "Reservation agent",
+        "info": "Handles phone and online reservations and updates the reservation system"
+      },
+      {
+        "title": "Concierge",
+        "info": "Provides services such as activity suggestions, restaurant bookings, and transportation arrangements"
+      },
+      {
+        "title": "Housekeeper / Maid",
+        "info": "Cleans and tidies guest rooms and public areas"
+      },
+      {
+        "title": "Housekeeping Supervisor",
+        "info": "Inspects the cleanliness of rooms and coordinates the housekeeping staff"
+      },
+      {
+        "title": "Linen Room Attendant",
+        "info": "Manages linens, towels, and cleaning supplies"
+      },
+      {
+        "title": "Cook / Chef",
+        "info": "Prepares and cooks meals according to the hotel's menu"
+      },
+      {
+        "title": "Executive Chef",
+        "info": "Responsible for the kitchen, menu planning, and supervising the kitchen staff"
+      },
+      {
+        "title": "Sous chef",
+        "info": "The assistant to the Executive Chef, responsible for overseeing the kitchen and meal preparation"
+      },
+      {
+        "title": "Pastry Chef",
+        "info": "Specializes in creating desserts and pastries"
+      },
+      {
+        "title": "Waiter / Waitress",
+        "info": "Serves customers in the hotel's restaurant, takes orders, and serves food and beverages"
+      },
+      {
+        "title": "Maître d'hôtel",
+        "info": "Ensures the smooth operation of the restaurant, manages staff, and provides customer service"
+      },
+      {
+        "title": "Bartende",
+        "info": "Prepares and serves drinks at the hotel bar"
+      },
+      {
+        "title": "Sommelier",
+        "info": "A wine expert who suggests wine options to guests and manages the hotel's wine cellar"
+      },
+      {
+        "title": "General Manager",
+        "info": "Responsible for the overall operation of the hotel, including strategy and staff management"
+      },
+      {
+        "title": "Rooms Division Manager",
+        "info": "Manages room-related services, such as reception, housekeeping, and reservations"
+      },
+      {
+        "title": "Food and Beverage Manager",
+        "info": "Oversees the food and beverage department, including restaurants and bars"
+      },
+      {
+        "title": "Accountant",
+        "info": "Manages the hotel's finances, payments, and payroll"
+      },
+      {
+        "title": "Purchasing Manager",
+        "info": "Manages the hotel's supplies and inventory"
+      },
+      {
+        "title": "Maintenance Worker/Technician",
+        "info": "Handles maintenance and repairs in the hotel, such as electrical and plumbing work"
+      },
+      {
+        "title": "Maintenance Manager",
+        "info": "Coordinates maintenance tasks and supervises technical staff"
+      },
+      {
+        "title": "Security Manager",
+        "info": "Manages the security of the facilities and staff"
+      },
+      {
+        "title": "Entertainment Manager",
+        "info": "Organizes and oversees entertainment activities for guests"
+      },
+      {
+        "title": "Fitness Instructor",
+        "info": "Organizes and supervises fitness and wellness programs"
+      },
+      {
+        "title": "Spa Therapist",
+        "info": "Provides spa services such as massages, body treatments, and facials"
+      },
+      {
+        "title": "Bellboy",
+        "info": "Assists guests with their luggage and escorts them to their rooms"
+      },
+      {
+        "title": "Valet",
+        "info": "Manages the parking of guest vehicles"
+      },
+      {
+        "title": "Laundry Attendant",
+        "info": "Responsible for washing and caring for linens and guest clothing"
+      },
+      {
+        "title": "Manager",
+        "info": "In rental rooms, the owner often takes on management responsibilities, ensuring the smooth operation of the business and customer service"
+      },
+      {
+        "title": "Online Marketing Manager",
+        "info": "Manages the property's presence on booking platforms and social media, ensuring that customers can easily find and book"
+      },
+      {
+        "title": "Guest Relations Manager",
+        "info": "Ensures an excellent guest experience, manages reviews, and promptly resolves any issues"
+      },
+      {
+        "title": "Gardener",
+        "info": "Responsible for the care and maintenance of the hotel's gardens, green spaces, and outdoor areas"
+      }
+    ]
+  },
+  {
+    "category": "Food and Beverage",
+    "specialisms": [
+      {
+        "title": "Cook/Chef",
+        "info": "Prepares and cooks dishes according to the establishment's menu"
+      },
+      {
+        "title": "Executive Chef",
+        "info": "Responsible for the overall operation of the kitchen, menu planning, and supervising the kitchen staff"
+      },
+      {
+        "title": "Sous Chef",
+        "info": "Assists the Executive Chef, oversees the kitchen in their absence, and is responsible for preparing specific dishes"
+      },
+      {
+        "title": "Commis Chef/Assistant Cook",
+        "info": "Assists in ingredient preparation and the cooking process under the supervision of chefs"
+      },
+      {
+        "title": "Pastry Chef",
+        "info": "Specializes in preparing desserts, pastries, and other baked goods"
+      },
+      {
+        "title": "Baker",
+        "info": "Prepares bread, pastries, and other baked items for the establishment"
+      },
+      {
+        "title": "Chef de Partie",
+        "info": "Head of a specific line in the kitchen, responsible for a particular section, such as appetizers, grills, or hot dishes"
+      },
+      {
+        "title": "Waiter/Waitress",
+        "info": "Serves customers, takes orders, delivers food and drinks, and ensures a pleasant dining experience"
+      },
+      {
+        "title": "Maître d'hôtel/Floor Manager",
+        "info": "Oversees the overall management of the dining area, table assignments, and ensures smooth customer service"
+      },
+      {
+        "title": "Expediter/Runner",
+        "info": "Acts as an intermediary between the kitchen and dining area, ensuring that dishes are served correctly and on time"
+      },
+      {
+        "title": "Barista",
+        "info": "Specializes in preparing coffee and other hot or cold beverages"
+      },
+      {
+        "title": "Host/Hostess",
+        "info": "Welcomes guests, guides them to their tables, and manages reservations"
+      },
+      {
+        "title": "Sommelier",
+        "info": "Wine expert who recommends wine options to customers and manages the restaurant's wine inventory"
+      },
+      {
+        "title": "Bartender",
+        "info": "Prepares and serves drinks and cocktails to customers, often creating new cocktail recipes"
+      },
+      {
+        "title": "Barback",
+        "info": "Assists the bartender by managing bar supplies, restocking, and maintaining a clean bar area"
+      },
+      {
+        "title": "Restaurant Manager",
+        "info": "Responsible for the overall operation of the establishment, managing staff, ensuring compliance with regulations, and customer service"
+      },
+      {
+        "title": "Food and Beverage Manager",
+        "info": "Manages food and beverage departments, including menu planning, supplies, and customer relations"
+      },
+      {
+        "title": "Purchasing Manager",
+        "info": "In charge of procuring the materials and products required for the efficient operation of the establishment"
+      },
+      {
+        "title": "Dishwasher/Kitchen Porter",
+        "info": "Cleans dishes, utensils, and kitchen equipment, maintaining a clean and organized kitchen"
+      },
+      {
+        "title": "Busser",
+        "info": "Assists waitstaff by clearing dishes, setting tables, and keeping the dining area clean"
+      },
+      {
+        "title": "Janitor/Cleaner",
+        "info": "Keeps the interior and exterior of the establishment clean, ensuring the cleanliness of all areas"
+      },
+      {
+        "title": "Accountant",
+        "info": "Manages the establishment's finances, payroll, and payments"
+      },
+      {
+        "title": "Reservations Agent",
+        "info": "Handles phone and online reservations for the restaurant"
+      },
+      {
+        "title": "Kitchen Assistant",
+        "info": "Helps with ingredient preparation, such as chopping vegetables and preparing salads"
+      },
+      {
+        "title": "Personal Chef",
+        "info": "Works exclusively for private clients, usually in homes, responsible for meal planning and preparation according to the client's needs"
+      }
+    ]
+  },
+  {
+    "category": "Recreation and Entertainment",
+    "specialisms": [
+      {
+        "title": "Entertainment Manager",
+        "info": "Responsible for the overall management of entertainment and leisure activities, organizing events, and coordinating staff"
+      },
+      {
+        "title": "Recreation Manager",
+        "info": "Manages sports and recreational facilities, such as swimming pools, gyms, and playgrounds"
+      },
+      {
+        "title": "Event Manager",
+        "info": "Organizes and supervises the execution of events, from preparation to completion"
+      },
+      {
+        "title": "Program Coordinator",
+        "info": "Designs and coordinates the schedule of activities and events, ensuring that the activities meet the needs of the clients"
+      },
+      {
+        "title": "Sound Technician",
+        "info": "Manages the sound installation and equipment during performances, concerts, and other events"
+      },
+      {
+        "title": "Lighting Technician",
+        "info": "Responsible for the design and operation of lighting during events"
+      },
+      {
+        "title": "Director",
+        "info": "Guides artists and actors in the creation of theatrical or other performances"
+      },
+      {
+        "title": "Stage Manager",
+        "info": "Coordinates onstage activities and ensures the smooth flow of the performance"
+      },
+      {
+        "title": "Costume Designer",
+        "info": "Creates and supervises costumes for performances, theatrical works, or other events"
+      },
+      {
+        "title": "Set Designer",
+        "info": "Responsible for creating and constructing sets for theatrical productions or events"
+      },
+      {
+        "title": "Front Desk Attendant",
+        "info": "Welcomes visitors and provides information about the venue's activities and services"
+      },
+      {
+        "title": "Cashier",
+        "info": "Manages payments and bookings for tickets, activities, or services"
+      },
+      {
+        "title": "Guest Relations Officer",
+        "info": "Handles customer issues and provides specialized customer service"
+      },
+      {
+        "title": "Janitor/Cleaner",
+        "info": "Maintains the cleanliness of facilities, such as halls, recreation areas, and restrooms"
+      },
+      {
+        "title": "Performer/Entertainer",
+        "info": "Participates in shows, musical concerts, dance shows, or other events"
+      },
+      {
+        "title": "Actor",
+        "info": "Performs in theatrical plays, film productions, or television programs"
+      },
+      {
+        "title": "Dancer",
+        "info": "Performs dance shows in various entertainment and leisure venues"
+      },
+      {
+        "title": "Musician",
+        "info": "Plays live music, participating in concerts, shows, or other events"
+      },
+      {
+        "title": "DJ (Disc Jockey)",
+        "info": "Plays music in nightclubs, events, or private parties, creating the appropriate atmosphere for attendees"
+      },
+      {
+        "title": "Fitness Instructor",
+        "info": "Organizes and supervises fitness programs, aerobics, or other sports activities"
+      },
+      {
+        "title": "Coach",
+        "info": "Trains and guides teams or athletes in various sports, whether at a professional or amateur level"
+      },
+      {
+        "title": "Lifeguard",
+        "info": "Oversees swimmers in pools or beaches and intervenes in case of emergency"
+      },
+      {
+        "title": "Activity Coordinator",
+        "info": "Organizes and supervises recreational activities for children and adults, such as games, excursions, and other fun activities"
+      },
+      {
+        "title": "Ticket Seller",
+        "info": "Manages ticket sales for events, activities, or venue admissions"
+      },
+      {
+        "title": "Gift Shop Attendant",
+        "info": "Manages sales in souvenir or gift shops within the recreation venue"
+      },
+      {
+        "title": "Tour Guide",
+        "info": "Provides information and tours to visitors in theme parks, museums, or other leisure venues"
+      },
+      {
+        "title": "Jeweler",
+        "info": "Designs and sells jewelry and accessories in special shops or events"
+      },
+      {
+        "title": "Photographer",
+        "info": "Captures moments from events, theme parks, or other activities and offers photos to visitors"
+      }
+    ]
+  },
+  {
+    "category": "Driver Workers",
+    "specialisms": [
+      {
+        "title": "Taxi Driver",
+        "info": "Responsible for transporting passengers within cities or specific areas using taxis or private vehicles"
+      },
+      {
+        "title": "City Bus Driver",
+        "info": "Operates buses on predetermined routes within the city, serving the public"
+      },
+      {
+        "title": "Intercity Bus Driver",
+        "info": "Transports passengers between cities or even countries, covering long distances"
+      },
+      {
+        "title": "School Bus Driver",
+        "info": "Transports students to and from school, ensuring their safety"
+      },
+      {
+        "title": "Chauffeur/Limousine Driver",
+        "info": "Provides high-end transport services for individuals or companies with luxury vehicles"
+      },
+      {
+        "title": "Tour Bus Driver",
+        "info": "Transports tourists to destinations and attractions, usually in collaboration with travel agencies"
+      },
+      {
+        "title": "Truck Driver",
+        "info": "Transports goods and cargo within cities or between regions, covering medium and long distances"
+      },
+      {
+        "title": "Tanker Driver",
+        "info": "Carries liquid or gaseous cargo, such as fuel or chemicals, in specialized vehicles"
+      },
+      {
+        "title": "Refrigerated Truck Driver",
+        "info": "Transports perishable goods in vehicles that maintain a specific temperature to ensure quality"
+      },
+      {
+        "title": "Container Truck Driver",
+        "info": "Transports goods in containers to and from ports, warehouses, and other distribution centers"
+      },
+      {
+        "title": "Delivery Driver",
+        "info": "Delivers products and goods to customers or businesses locally, often using smaller vehicles"
+      },
+      {
+        "title": "Ambulance Driver",
+        "info": "Drives ambulances, ensuring the rapid and safe transport of patients to medical facilities"
+      },
+      {
+        "title": "Fire Truck Driver",
+        "info": "Operates fire trucks during emergency situations like fires"
+      },
+      {
+        "title": "Rescue Vehicle Driver",
+        "info": "Drives vehicles used in rescue operations or emergency situations"
+      },
+      {
+        "title": "Snowplow Driver",
+        "info": "Clears snow and ice from roads and public areas using specialized vehicles"
+      },
+      {
+        "title": "Crane Truck Driver",
+        "info": "Operates cranes for moving heavy objects or for construction work"
+      },
+      {
+        "title": "Road Roller Driver",
+        "info": "Operates road rollers for the construction and maintenance of road surfaces"
+      },
+      {
+        "title": "Excavator Operator",
+        "info": "Operates excavators for construction projects, digging, and other heavy tasks"
+      },
+      {
+        "title": "Tractor Driver",
+        "info": "Operates agricultural machinery for land cultivation and other farming tasks"
+      },
+      {
+        "title": "Garbage Truck Driver",
+        "info": "Collects and transports waste and recyclables to processing facilities"
+      },
+      {
+        "title": "Dispatch Coordinator",
+        "info": "Organizes and manages the routes of vehicles and drivers, ensuring efficient transport operations"
+      },
+      {
+        "title": "Transport Inspector",
+        "info": "Checks compliance with safety regulations on roads and vehicles"
+      },
+      {
+        "title": "Driving Instructor",
+        "info": "Trains new drivers to obtain driving licenses for private or commercial vehicles"
+      },
+      {
+        "title": "Automotive Mechanic",
+        "info": "Repairs and maintains vehicles, ensuring their proper operation"
+      },
+      {
+        "title": "Tire Technician",
+        "info": "Specializes in installing and repairing tires on vehicles"
+      },
+      {
+        "title": "Car Wash Attendant",
+        "info": "Maintains the cleanliness of vehicles, both externally and internally"
+      }
+    ]
+  },
+  {
+    "category": "Boats and Ship",
+    "specialisms": [
+      {
+        "title": "Captain",
+        "info": "Head of a large ship, responsible for overall command, navigation, safety of the ship, and crew"
+      },
+      {
+        "title": "Chief Officer/First Mate",
+        "info": "Assists the captain on larger ships, responsible for cargo safety and crew management"
+      },
+      {
+        "title": "Second Officer",
+        "info": "Assists in navigation and bridge management on large ships"
+      },
+      {
+        "title": "Third Officer",
+        "info": "Oversees specific safety duties and bridge operations on large ships"
+      },
+      {
+        "title": "Chief Engineer",
+        "info": "Responsible for the mechanical operation of large ships"
+      },
+      {
+        "title": "Second Engineer",
+        "info": "Assists the Chief Engineer on larger ships"
+      },
+      {
+        "title": "Third Engineer",
+        "info": "Handles maintenance and operation of the engine room on large ships"
+      },
+      {
+        "title": "Oiler/Motorman",
+        "info": "Maintains and operates engines on ship and vessels"
+      },
+      {
+        "title": "Small Vessel Engineer",
+        "info": "Responsible for the maintenance and repair of engines on smaller vessels, such as yachts and sailboats"
+      },
+      {
+        "title": "Able Seaman/Deckhand",
+        "info": "Performs daily tasks on deck, assists in maintenance, and ensures safe navigation of the vessel"
+      },
+      {
+        "title": "Boatswain/Bosun",
+        "info": "Head of deckhands, mainly on larger ships, responsible for deck maintenance"
+      },
+      {
+        "title": "Radio Operator",
+        "info": "Manages communications, primarily on larger ships"
+      },
+      {
+        "title": "Safety Officer",
+        "info": "Oversees safety measures and crew training, primarily on larger ships"
+      },
+      {
+        "title": "Pilot",
+        "info": "Guides the ship through narrow waters, such as harbors, to ensure safe navigation"
+      },
+      {
+        "title": "Purser",
+        "info": "Responsible for managing finances and passenger services on larger ships"
+      },
+      {
+        "title": "Receptionist",
+        "info": "Greets passengers and manages reservations, mainly on passenger ships"
+      },
+      {
+        "title": "Steward/Stewardess",
+        "info": "Ensures cleanliness and passenger service on passenger ships and recreational boats"
+      },
+      {
+        "title": "Chef",
+        "info": "Responsible for the kitchen on ships and larger recreational vessels"
+      },
+      {
+        "title": "Cook Assistant",
+        "info": "Assists in meal preparation"
+      },
+      {
+        "title": "Bartender",
+        "info": "Serves drinks to passengers on ships and recreational vessels"
+      },
+      {
+        "title": "Ship's Doctor",
+        "info": "Provides medical care to the crew and passengers on large ships"
+      },
+      {
+        "title": "Ship's Nurse",
+        "info": "Assists the doctor and provides first aid"
+      },
+      {
+        "title": "Cargo Officer",
+        "info": "Manages cargo loading and unloading"
+      },
+      {
+        "title": "Chartering Broker",
+        "info": "Negotiates the chartering of the ship"
+      },
+      {
+        "title": "Storekeeper",
+        "info": "Manages inventory and supplies"
+      },
+      {
+        "title": "Ship's Electrician",
+        "info": "Maintains electrical systems on ships"
+      },
+      {
+        "title": "Refrigeration Engineer",
+        "info": "Manages cooling systems on ships"
+      },
+      {
+        "title": "Ship Inspector",
+        "info": "Inspects the ship's seaworthiness"
+      },
+      {
+        "title": "Entertainment Manager",
+        "info": "Organizes and manages entertainment activities on recreational boats and yachts"
+      },
+      {
+        "title": "Skipper",
+        "info": "Responsible for navigating and operating smaller vessels, such as sailboats, yachts, fishing boats, or recreational boats (under 24 meters)"
+      },
+      {
+        "title": "Galley Steward/Assistant Cook",
+        "info": "Assists in meal preparation and cooking, helps maintain cleanliness in the kitchen, and is also responsible for the internal cleanliness of the vessel (under 24 meters)"
+      },
+      {
+        "title": "Boat Cook",
+        "info": "Provides meals on smaller recreational boats (under 24 meters)"
+      },
+      {
+        "title": "Deckhand",
+        "info": "Assists with the maintenance and operation of the deck on a boat or ship, including tasks such as cleaning, handling ropes, and supporting the crew in various activities (under 24 meters)"
+      },
+      {
+        "title": "Bowline Operator",
+        "info": "Handles and manages the ropes and lines used to secure a vessel to a dock or other mooring, ensuring that the boat is safely and securely fastened"
+      }
+    ]
+  },
+  {
+    "category": "Festivals and Events",
+    "specialisms": [
+      {
+        "title": "Event Director",
+        "info": "Responsible for the overall organization and execution of the festival or event, from initial concept to completion"
+      },
+      {
+        "title": "Production Manager",
+        "info": "Manages the event's production by coordinating technical teams, schedules, and budgets"
+      },
+      {
+        "title": "Operations Manager",
+        "info": "Oversees the daily operations of the event, ensuring everything runs smoothly during the event"
+      },
+      {
+        "title": "Program Coordinator",
+        "info": "Plans and coordinates the schedule of activities and performances during the event"
+      },
+      {
+        "title": "Logistics Coordinator",
+        "info": "Manages supplies, transportation, and installations, ensuring all necessary materials are available"
+      },
+      {
+        "title": "Security Manager",
+        "info": "Ensures the safety of participants, staff, and visitors during the event"
+      },
+      {
+        "title": "Sound Technician",
+        "info": "Sets up and manages sound for performances, speeches, and other event activities"
+      },
+      {
+        "title": "Lighting Technician",
+        "info": "Installs and operates lighting for stages and event areas"
+      },
+      {
+        "title": "Stage Technician",
+        "info": "Responsible for the construction, maintenance, and dismantling of stages and related installations"
+      },
+      {
+        "title": "Event Electrician",
+        "info": "Ensures all electrical installations function correctly and safely during the event"
+      },
+      {
+        "title": "Visual Technician",
+        "info": "Operates visual equipment, such as projectors and screens, for displaying videos or other visual content"
+      },
+      {
+        "title": "Front Desk Attendant",
+        "info": "Welcomes visitors and provides information about the event schedule and facilities"
+      },
+      {
+        "title": "Ticketing Agent",
+        "info": "Manages ticket sales and reservations for entry to the event"
+      },
+      {
+        "title": "Guest Relations Officer",
+        "info": "Handles visitor issues and provides specialized customer service"
+      },
+      {
+        "title": "Cleaner/Janitor",
+        "info": "Maintains the cleanliness of event spaces, including restrooms, halls, and common areas"
+      },
+      {
+        "title": "Performer",
+        "info": "Participates in performances, musical concerts, theatrical plays, or other forms of entertainment during the event"
+      },
+      {
+        "title": "Musician",
+        "info": "Performs live music at concerts or other festival activities"
+      },
+      {
+        "title": "DJ (Disc Jockey)",
+        "info": "Plays music at specific parts of the event, such as parties or main stages"
+      },
+      {
+        "title": "Host/MC",
+        "info": "Presents and guides the audience during performances or other activities"
+      },
+      {
+        "title": "Catering Manager",
+        "info": "Manages the provision of food and beverages to guests and staff during the event"
+      },
+      {
+        "title": "Chef",
+        "info": "Prepares meals offered during the event"
+      },
+      {
+        "title": "Bartender",
+        "info": "Prepares and serves drinks to event attendees"
+      },
+      {
+        "title": "Waiter/Waitress",
+        "info": "Serves guests food and beverages at various dining areas within the event"
+      },
+      {
+        "title": "Marketing Manager",
+        "info": "Designs and implements promotional strategies to attract visitors and promote the event"
+      },
+      {
+        "title": "Merchandise Seller",
+        "info": "Manages the sales of products or memorabilia associated with the event"
+      },
+      {
+        "title": "Sponsorship Coordinator",
+        "info": "Manages sponsorships and partnerships that financially support the event"
+      },
+      {
+        "title": "Social Media Manager",
+        "info": "Handles the event's promotion on social networks, creating and publishing content"
+      },
+      {
+        "title": "Volunteer",
+        "info": "Supports various event functions by assisting staff as needed"
+      },
+      {
+        "title": "First Aid Attendant",
+        "info": "Provides first aid to visitors or staff who may need it"
+      },
+      {
+        "title": "Security Guard",
+        "info": "Ensures order and safety at the event venue"
+      },
+      {
+        "title": "Tour Guide",
+        "info": "Provides information and tours to visitors during the event or as part of the festival"
+      },
+      {
+        "title": "Photographer",
+        "info": "Captures moments of the event, from performances to audience scenes"
+      },
+      {
+        "title": "Videographer",
+        "info": "Records videos for event coverage or promotional purposes"
+      }
+    ]
+  }
+]
