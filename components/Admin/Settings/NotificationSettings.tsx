@@ -61,10 +61,10 @@ const NotificationSettings = () => {
                     ],
                 },
             ].map((section, index) => (
-                <>
+                <div key={index}>
                     <SectionBlock index={index} title={section.title} desc={section.desc} settings={section.settings} />
                     {index !== 2 && (<hr className='w-full' />)}
-                </>
+                </div>
             ))}
         </div>
     )

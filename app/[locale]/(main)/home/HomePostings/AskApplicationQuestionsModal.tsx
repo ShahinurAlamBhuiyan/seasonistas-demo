@@ -91,7 +91,7 @@ export function AskApplicationQuestionsModal({
             </Typography>
 
             {questions.map((qs, index) => (
-              <>
+              <div key={index}>
                 <Typography className="-mb-2 mt-4" variant="h6">
                   {qs}
                 </Typography>
@@ -104,7 +104,7 @@ export function AskApplicationQuestionsModal({
                     handleAnswerChange(event.target.value || "", index)
                   }
                 />
-              </>
+              </div>
             ))}
           </CardBody>
           <CardFooter className="pt-0">
