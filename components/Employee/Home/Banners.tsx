@@ -4,9 +4,9 @@ import { GoArrowUpRight } from "react-icons/go";
 import CreateNewPostModal from './CreateNewPostModal'
 import { useState } from 'react'
 
-import bannerBg1 from '../../../app/assets/employer/home/bannerBg1.png'
-import bannerBg2 from '../../../app/assets/employer/home/bannerBg2.png'
-import bannerHero from '../../../app/assets/employer/home/bannerHero.png'
+import bannerBg1 from '~/app/assets/employer/home/bannerBg1.png'
+import bannerBg2 from '~/app/assets/employer/home/bannerBg2.png'
+import bannerHero from '~/app/assets/employer/home/bannerHero.png'
 
 const Banners = () => {
     const [modalOpen, setModalOpen] = useState(false)

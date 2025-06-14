@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import risingArrow from '../../../app/assets/employer/dashboard/risingArrow.png'
-import fallingArrow from '../../../app/assets/employer/dashboard/fallingArrow.png'
+import risingArrow from '~/app/assets/employer/dashboard/risingArrow.png'
+import fallingArrow from '~/app/assets/employer/dashboard/fallingArrow.png'
 
 type Props = {
     title: string

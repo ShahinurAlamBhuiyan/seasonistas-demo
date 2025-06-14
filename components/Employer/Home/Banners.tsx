@@ -2,9 +2,9 @@ import Image from 'next/image'
 import { GoArrowUpRight } from "react-icons/go";
 
 
-import bannerBg1 from '../../../app/assets/Employer/home/bannerBg1.png'
-import bannerBg2 from '../../../app/assets/Employer/home/bannerBg2.png'
-import bannerHero from '../../../app/assets/Employer/home/bannerHero.png'
+import bannerBg1 from '~/app/assets/Employer/home/bannerBg1.png'
+import bannerBg2 from '~/app/assets/Employer/home/bannerBg2.png'
+import bannerHero from '~/app/assets/Employer/home/bannerHero.png'
 
 const Banners = () => {
     return (

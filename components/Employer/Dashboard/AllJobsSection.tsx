@@ -1,9 +1,9 @@
 'use client'
 
 import Image from 'next/image'
-import avatar1 from '../../../app/assets/employer/dashboard/applicant1.png'
-import avatar2 from '../../../app/assets/employer/dashboard/applicant2.png'
-import avatar3 from '../../../app/assets/employer/dashboard/applicant3.png'
+import avatar1 from '~/app/assets/employer/dashboard/applicant1.png'
+import avatar2 from '~/app/assets/employer/dashboard/applicant2.png'
+import avatar3 from '~/app/assets/employer/dashboard/applicant3.png'
 import { FiEdit2 } from 'react-icons/fi'
 import { useState } from 'react'
 import WarningModal from './WarningModal'

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import ActiveJobCard from './ActiveJobCard'
 import WorkerProfileCard from './WorkerProfileCard'
 import JobFilterBar from './JobFilterBar'
-import workerImg from '../../../app/assets/employer/home/employerImg.png'
+import workerImg from '~/app/assets/employer/home/employerImg.png'
 
 export const activeJobs = [
     {
