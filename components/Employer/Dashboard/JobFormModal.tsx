@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { IoClose } from 'react-icons/io5'
 import { IoIosArrowDown } from 'react-icons/io'
 import { SlCalender } from "react-icons/sl"
-import { FaCloudUploadAlt } from "react-icons/fa"
 import { useRouter } from 'next/navigation'
 import { useJobForm } from '../../../stores/useJobForm'
 
@@ -171,7 +170,7 @@ const JobFormModal = ({ onClose }: { onClose: () => void }) => {
                         <input name="q2" placeholder="Question 2" value={formData.q2} onChange={handleChange} className="Employer-dashboard-input placeholder:text-sm" />
                         <input name="q3" placeholder="Question 3" value={formData.q3} onChange={handleChange} className="Employer-dashboard-input placeholder:text-sm" />
                         <input name="q4" placeholder="Question 4" value={formData.q4} onChange={handleChange} className="Employer-dashboard-input placeholder:text-sm" />
-                        <div className="text-center text-gray-500 text-sm mt-2">
+                        {/* <div className="text-center text-gray-500 text-sm mt-2">
                             <label htmlFor="cv-upload" className="border border-dashed border-gray-400 py-4 rounded-xl cursor-pointer block">
                                 <p className="text-gray-600 flex flex-col justify-center items-center">
                                     <FaCloudUploadAlt size={20} />
@@ -195,7 +194,7 @@ const JobFormModal = ({ onClose }: { onClose: () => void }) => {
                             {formData.cv && (
                                 <p className="text-xs text-gray-500 mt-1 text-center truncate">{formData.cv.name}</p>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 )}
 

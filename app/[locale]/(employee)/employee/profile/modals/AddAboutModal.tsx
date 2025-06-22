@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Dialog,
   DialogTitle,
@@ -14,21 +14,22 @@ import CloseIcon from '@mui/icons-material/Close';
 interface AddAboutModalProps {
   open: boolean;
   onClose: () => void;
+  savedData: string;
+  onSave: (text: string) => void;
 }
 
-const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
+const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose, savedData, onSave }) => {
+  const [input, setInput] = useState(savedData || "");
+
+  useEffect(() => {
+    if (open) setInput(savedData || "");
+  }, [open, savedData]);
+
   return (
-    <Dialog open={open} onClose={onClose} maxWidth="xs" fullWidth PaperProps={{
-      sx: {
-        borderRadius: '16px',
-      },
-    }}>
+    <Dialog open={open} onClose={onClose} maxWidth="xs" fullWidth PaperProps={{ sx: { borderRadius: '16px' } }}>
       <DialogTitle sx={{ fontWeight: 'bold', px: 3, pt: 3 }}>
-        Add About
-        <IconButton
-          onClick={onClose}
-          sx={{ position: 'absolute', right: 16, top: 16 }}
-        >
+        Edit About
+        <IconButton onClick={onClose} sx={{ position: 'absolute', right: 16, top: 16 }}>
           <CloseIcon />
         </IconButton>
       </DialogTitle>
@@ -36,7 +37,9 @@ const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
       <DialogContent sx={{ px: 3, pt: 0, pb: 3 }}>
         <Stack spacing={2.2}>
           <TextField
-            placeholder="Add About Here"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            placeholder="Edit About Here"
             multiline
             minRows={5}
             fullWidth
@@ -63,6 +66,7 @@ const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
             </Button>
             <Button
               variant="contained"
+              onClick={() => onSave(input)}
               sx={{
                 backgroundColor: '#4B8378',
                 borderRadius: '20px',
@@ -76,7 +80,6 @@ const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
               Save
             </Button>
           </Box>
-
         </Stack>
       </DialogContent>
     </Dialog>

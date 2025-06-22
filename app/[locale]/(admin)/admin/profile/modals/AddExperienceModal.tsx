@@ -88,18 +88,18 @@ const AddExperienceModal: React.FC<AddExperienceModalProps> = ({ open, onClose }
             sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
           />
 
-          {!currentlyWorking && (
-            <TextField
-              type="date"
-              label="End Date"
-              value={endDate}
-              onChange={(e) => setEndDate(e.target.value)}
-              size="small"
-              fullWidth
-              InputLabelProps={{ shrink: true }}
-              sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
-            />
-          )}
+          {/* {!currentlyWorking && ( */}
+          <TextField
+            type="date"
+            label="End Date"
+            value={endDate}
+            onChange={(e) => setEndDate(e.target.value)}
+            size="small"
+            fullWidth
+            InputLabelProps={{ shrink: true }}
+            sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
+          />
+          {/* )} */}
 
           <TextField
             multiline

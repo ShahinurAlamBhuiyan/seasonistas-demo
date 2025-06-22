@@ -20,7 +20,7 @@ const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
   return (
     <Dialog open={open} onClose={onClose} maxWidth="xs" fullWidth>
       <DialogTitle sx={{ fontWeight: 'bold', px: 3, pt: 3 }}>
-        Add About
+        Edit About
         <IconButton
           onClick={onClose}
           sx={{ position: 'absolute', right: 16, top: 16 }}
@@ -32,7 +32,7 @@ const AddAboutModal: React.FC<AddAboutModalProps> = ({ open, onClose }) => {
       <DialogContent sx={{ px: 3, pt: 0, pb: 3 }}>
         <Stack spacing={2.2}>
           <TextField
-            placeholder="Add About Here"
+            placeholder="Edit About Here"
             multiline
             minRows={5}
             fullWidth

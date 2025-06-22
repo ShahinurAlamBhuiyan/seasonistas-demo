@@ -91,31 +91,12 @@ const EditProfileModal: React.FC<EditProfileModalProps> = ({ open, onClose, type
               <TextField
                 variant="outlined"
                 size="small"
-                placeholder="Employment Type"
+                placeholder="Website"
                 fullWidth
                 sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
-                InputProps={{ readOnly: true }}
               />
-              <Box display="flex" gap={2}>
-                <TextField
-                  type="date"
-                  variant="outlined"
-                  size="small"
-                  fullWidth
-                  label="Start Date"
-                  InputLabelProps={{ shrink: true }}
-                  sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
-                />
-                <TextField
-                  type="date"
-                  variant="outlined"
-                  size="small"
-                  fullWidth
-                  label="End Date"
-                  InputLabelProps={{ shrink: true }}
-                  sx={{ '& .MuiOutlinedInput-root': { borderRadius: 10 } }}
-                />
-              </Box>
+
+
             </>
           ) : (
             <>

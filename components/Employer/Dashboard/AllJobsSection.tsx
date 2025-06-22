@@ -7,9 +7,11 @@ import avatar3 from '~/app/assets/employer/dashboard/applicant3.png'
 import { FiEdit2 } from 'react-icons/fi'
 import { useState } from 'react'
 import WarningModal from './WarningModal'
+import { useRouter } from 'next/navigation'
 
 const jobs = [
     {
+        id: 1,
         title: 'UI/UX Designer',
         status: 'active',
         description:
@@ -18,6 +20,7 @@ const jobs = [
         applicants: 12,
     },
     {
+        id: 2,
         title: 'UI/UX Designer',
         status: 'active',
         description:
@@ -26,6 +29,7 @@ const jobs = [
         applicants: 12,
     },
     {
+        id: 3,
         title: 'UI/UX Designer',
         status: 'expired',
         description:
@@ -36,6 +40,7 @@ const jobs = [
 ]
 
 const AllJobsSection = () => {
+    const router = useRouter();
     const [showModal, setShowModal] = useState(false);
 
     const handleRepost = () => {
@@ -53,7 +58,9 @@ const AllJobsSection = () => {
                         className="bg-white border border-gray-200 rounded-xl p-6 space-y-4 relative"
                     >
                         {/* Edit icon */}
-                        <button className="absolute top-4 right-4 bg-[#E6F4EF] p-2 rounded-full text-[#4F9A98] hover:text-[#3e7e79]">
+                        <button className="absolute top-4 right-4 bg-[#E6F4EF] p-2 rounded-full text-[#4F9A98] hover:text-[#3e7e79]"
+                            onClick={() => router.push(`/en/employer/post-details/${job.id}`)}
+                        >
                             <FiEdit2 size={16} />
                         </button>
 
